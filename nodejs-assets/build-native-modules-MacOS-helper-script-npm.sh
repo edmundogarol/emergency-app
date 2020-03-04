@@ -1,0 +1,5 @@
+#!/bin/bash
+      # Helper script for Gradle to call npm on macOS in case it is not found
+      export PATH=$PATH:/Users/YungYung/Downloads/EmergencyApp/node_modules/nodejs-mobile-react-native/node_modules/.bin:/Users/YungYung/.config/yarn/link/node_modules/.bin:/Users/YungYung/Downloads/EmergencyApp/node_modules/nodejs-mobile-react-native/node_modules/.bin:/Users/YungYung/.config/yarn/link/node_modules/.bin:/usr/local/Cellar/node@12/12.13.1/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/Cellar/node@12/12.13.1/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/Cellar/node@12/12.13.1/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/Cellar/node@12/12.13.1/bin:/usr/local/opt/node@12/bin:/usr/local/opt/node@12/bin:/Users/YungYung/.nvm/versions/node/v5.12.0/bin:/Users/YungYung/.pyenv/shims:/usr/local/Cellar/pyenv-virtualenv/1.1.3/shims:/Users/YungYung/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/YungYung/Library/Android/sdk/emulator:/Users/YungYung/Library/Android/sdk/tools:/Users/YungYung/Library/Android/sdk/tools/bin:/Users/YungYung/Library/Android/sdk/platform-tools
+      npm $@
+    
