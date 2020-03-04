@@ -1,5 +1,4 @@
 node_modules/**/*
-!node_modules/react-native-dynamic-vector-icons/lib/components/Icon.tsx
 .expo/*
 npm-debug.*
 *.jks
