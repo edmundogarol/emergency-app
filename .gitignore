@@ -1,4 +1,5 @@
 node_modules/**/*
+!/Users/YungYung/Downloads/EmergencyApp/node_modules/react-native-dynamic-vector-icons/lib/components/Icon.tsx
 .expo/*
 npm-debug.*
 *.jks
