@@ -34,7 +34,6 @@ export default function App(props) {
 
   function changePassword(passwordInput) {
     password = passwordInput;
-    console.log('password', password);
   }
   
   const LoginScreenComponent = () => {
@@ -86,7 +85,6 @@ export default function App(props) {
   if (!isLoadingComplete && !props.skipLoadingScreen) {
     return null;
   } else {
-    console.log('render');
     return !isLoggedIn ? (
       <LoginScreenComponent />
     ) : (
