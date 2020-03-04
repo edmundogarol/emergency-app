@@ -50,6 +50,8 @@ const Choice = ({ type }) => {
       },
       body: JSON.stringify(body)
     }).then(response => {
+      // Sengrid's Documentation confirms a 202 status is an email that has successfully 
+      // been sent and queued for delivery
       if (response.status === 202) {
         alert(`Sent ${getLabel[type]} emergency email.`);
       }
